@@ -35,7 +35,7 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi.internal.reader;
+package iaparapi.internal.reader;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -48,7 +48,7 @@ import java.io.InputStream;
  * 
  * Does not keep track of accesses.  For this you will need a <code>ByteReader</code>
  * 
- * @see com.amd.aparapi.internal.reader.ByteReader
+ * @see ByteReader
  * 
  * @author gfrost
  *

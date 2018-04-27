@@ -1,4 +1,4 @@
 /**
  *
  */
-package com.amd.aparapi.internal.tool;
+package iaparapi.internal.tool;

@@ -35,7 +35,7 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi.internal.kernel;
+package iaparapi.internal.kernel;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
@@ -53,25 +53,25 @@ import java.util.concurrent.ExecutorService;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.amd.aparapi.Config;
-import com.amd.aparapi.Kernel;
-import com.amd.aparapi.Kernel.Constant;
-import com.amd.aparapi.Kernel.EXECUTION_MODE;
-import com.amd.aparapi.Kernel.KernelState;
-import com.amd.aparapi.Kernel.Local;
-import com.amd.aparapi.ProfileInfo;
-import com.amd.aparapi.Range;
-import com.amd.aparapi.device.Device;
-import com.amd.aparapi.device.OpenCLDevice;
-import com.amd.aparapi.internal.exception.AparapiException;
-import com.amd.aparapi.internal.exception.CodeGenException;
-import com.amd.aparapi.internal.instruction.InstructionSet.TypeSpec;
-import com.amd.aparapi.internal.jni.KernelRunnerJNI;
-import com.amd.aparapi.internal.model.ClassModel;
-import com.amd.aparapi.internal.model.Entrypoint;
-import com.amd.aparapi.internal.util.UnsafeWrapper;
-import com.amd.aparapi.internal.writer.KernelWriter;
-import com.amd.aparapi.opencl.OpenCL;
+import iaparapi.Config;
+import iaparapi.Kernel;
+import iaparapi.Kernel.Constant;
+import iaparapi.Kernel.EXECUTION_MODE;
+import iaparapi.Kernel.KernelState;
+import iaparapi.Kernel.Local;
+import iaparapi.ProfileInfo;
+import iaparapi.Range;
+import iaparapi.device.Device;
+import iaparapi.device.OpenCLDevice;
+import iaparapi.internal.exception.AparapiException;
+import iaparapi.internal.exception.CodeGenException;
+import iaparapi.internal.instruction.InstructionSet.TypeSpec;
+import iaparapi.internal.jni.KernelRunnerJNI;
+import iaparapi.internal.model.ClassModel;
+import iaparapi.internal.model.Entrypoint;
+import iaparapi.internal.util.UnsafeWrapper;
+import iaparapi.internal.writer.KernelWriter;
+import iaparapi.opencl.OpenCL;
 
 /**
  * The class is responsible for executing <code>Kernel</code> implementations. <br/>
@@ -84,7 +84,7 @@ import com.amd.aparapi.opencl.OpenCL;
  * time the <code>ExecutionMode</code> is consulted to determine the default requested mode.  This will dictate how 
  * the <code>KernelRunner</code> will attempt to execute the <code>Kernel</code>
  *   
- * @see com.amd.aparapi.Kernel#execute(int _globalSize)
+ * @see Kernel#execute(int _globalSize)
  * 
  * @author gfrost
  *

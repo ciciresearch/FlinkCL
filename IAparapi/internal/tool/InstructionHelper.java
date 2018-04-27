@@ -1,31 +1,30 @@
-package com.amd.aparapi.internal.tool;
+package iaparapi.internal.tool;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.amd.aparapi.internal.exception.CodeGenException;
-import com.amd.aparapi.internal.instruction.Instruction;
-import com.amd.aparapi.internal.instruction.InstructionSet.AssignToLocalVariable;
-import com.amd.aparapi.internal.instruction.InstructionSet.Branch;
-import com.amd.aparapi.internal.instruction.InstructionSet.ByteCode;
-import com.amd.aparapi.internal.instruction.InstructionSet.CloneInstruction;
-import com.amd.aparapi.internal.instruction.InstructionSet.CompositeInstruction;
-import com.amd.aparapi.internal.instruction.InstructionSet.ConditionalBranch16;
-import com.amd.aparapi.internal.instruction.InstructionSet.Constant;
-import com.amd.aparapi.internal.instruction.InstructionSet.FieldReference;
-import com.amd.aparapi.internal.instruction.InstructionSet.I_ACONST_NULL;
-import com.amd.aparapi.internal.instruction.InstructionSet.I_IINC;
-import com.amd.aparapi.internal.instruction.InstructionSet.LocalVariableTableIndexAccessor;
-import com.amd.aparapi.internal.instruction.InstructionSet.MethodCall;
-import com.amd.aparapi.internal.instruction.InstructionSet.OperatorInstruction;
-import com.amd.aparapi.internal.model.ClassModel;
-import com.amd.aparapi.internal.model.Entrypoint;
-import com.amd.aparapi.internal.model.MethodModel;
-import com.amd.aparapi.internal.model.ClassModel.LocalVariableTableEntry;
-import com.amd.aparapi.internal.model.ClassModel.LocalVariableInfo;
-import com.amd.aparapi.internal.writer.BlockWriter;
+import iaparapi.internal.exception.CodeGenException;
+import iaparapi.internal.instruction.Instruction;
+import iaparapi.internal.instruction.InstructionSet.AssignToLocalVariable;
+import iaparapi.internal.instruction.InstructionSet.Branch;
+import iaparapi.internal.instruction.InstructionSet.ByteCode;
+import iaparapi.internal.instruction.InstructionSet.CloneInstruction;
+import iaparapi.internal.instruction.InstructionSet.CompositeInstruction;
+import iaparapi.internal.instruction.InstructionSet.ConditionalBranch16;
+import iaparapi.internal.instruction.InstructionSet.Constant;
+import iaparapi.internal.instruction.InstructionSet.FieldReference;
+import iaparapi.internal.instruction.InstructionSet.I_ACONST_NULL;
+import iaparapi.internal.instruction.InstructionSet.I_IINC;
+import iaparapi.internal.instruction.InstructionSet.LocalVariableTableIndexAccessor;
+import iaparapi.internal.instruction.InstructionSet.MethodCall;
+import iaparapi.internal.instruction.InstructionSet.OperatorInstruction;
+import iaparapi.internal.model.ClassModel;
+import iaparapi.internal.model.Entrypoint;
+import iaparapi.internal.model.MethodModel;
+import iaparapi.internal.model.ClassModel.LocalVariableInfo;
+import iaparapi.internal.writer.BlockWriter;
 
 public class InstructionHelper{
 

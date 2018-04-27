@@ -35,19 +35,19 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi.internal.instruction;
+package iaparapi.internal.instruction;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-import com.amd.aparapi.internal.model.MethodModel;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool.Entry;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool.FieldEntry;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool.MethodEntry;
-import com.amd.aparapi.internal.model.ClassModel.LocalVariableTableEntry;
-import com.amd.aparapi.internal.model.ClassModel.LocalVariableInfo;
-import com.amd.aparapi.internal.reader.ByteReader;
+import iaparapi.internal.model.MethodModel;
+import iaparapi.internal.model.ClassModel.ConstantPool;
+import iaparapi.internal.model.ClassModel.ConstantPool.Entry;
+import iaparapi.internal.model.ClassModel.ConstantPool.FieldEntry;
+import iaparapi.internal.model.ClassModel.ConstantPool.MethodEntry;
+import iaparapi.internal.model.ClassModel.LocalVariableTableEntry;
+import iaparapi.internal.model.ClassModel.LocalVariableInfo;
+import iaparapi.internal.reader.ByteReader;
 
 public class InstructionSet{
 

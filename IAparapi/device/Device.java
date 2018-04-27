@@ -1,8 +1,8 @@
-package com.amd.aparapi.device;
+package iaparapi.device;
 
-import com.amd.aparapi.Range;
-import com.amd.aparapi.device.OpenCLDevice.DeviceComparitor;
-import com.amd.aparapi.device.OpenCLDevice.DeviceSelector;
+import iaparapi.Range;
+import iaparapi.device.OpenCLDevice.DeviceComparitor;
+import iaparapi.device.OpenCLDevice.DeviceSelector;
 
 public abstract class Device{
 

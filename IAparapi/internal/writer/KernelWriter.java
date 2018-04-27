@@ -35,21 +35,28 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
  */
-package com.amd.aparapi.internal.writer;
+package iaparapi.internal.writer;
 
-import com.amd.aparapi.*;
-import com.amd.aparapi.Kernel;
-import com.amd.aparapi.core.FieldAnn;
+import iaparapi.Config;
+import iaparapi.Kernel;
+import iaparapi.internal.exception.ClassParseException;
+import iaparapi.internal.exception.CodeGenException;
+import iaparapi.internal.instruction.Instruction;
+import iaparapi.internal.instruction.InstructionSet;
+import iaparapi.internal.model.ClassModel;
+import iaparapi.internal.model.Entrypoint;
+import iaparapi.internal.model.MethodModel;
+import iaparapibridge.core.FieldAnn;
 import com.amd.aparapi.internal.exception.*;
 import com.amd.aparapi.internal.instruction.*;
-import com.amd.aparapi.internal.instruction.InstructionSet.*;
+import iaparapi.internal.instruction.InstructionSet.*;
 import com.amd.aparapi.internal.model.*;
-import com.amd.aparapi.internal.model.ClassModel.AttributePool.*;
-import com.amd.aparapi.internal.model.ClassModel.AttributePool.RuntimeAnnotationsEntry.*;
-import com.amd.aparapi.internal.model.ClassModel.*;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool.*;
-import com.amd.aparapi.opencl.OpenCL.Constant;
-import com.amd.aparapi.opencl.OpenCL.*;
+import iaparapi.internal.model.ClassModel.AttributePool.*;
+import iaparapi.internal.model.ClassModel.AttributePool.RuntimeAnnotationsEntry.*;
+import iaparapi.internal.model.ClassModel.*;
+import iaparapi.internal.model.ClassModel.ConstantPool.*;
+import iaparapi.opencl.OpenCL.Constant;
+import iaparapi.opencl.OpenCL.*;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

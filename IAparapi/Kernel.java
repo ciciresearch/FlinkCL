@@ -35,14 +35,19 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi;
+package iaparapi;
 
 import com.amd.aparapi.annotation.*;
 import com.amd.aparapi.exception.*;
 import com.amd.aparapi.internal.kernel.*;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool.*;
+import iaparapi.annotation.Experimental;
+import iaparapi.exception.DeprecatedException;
+import iaparapi.internal.kernel.KernelRunner;
+import iaparapi.internal.model.ClassModel.ConstantPool.*;
 import com.amd.aparapi.internal.opencl.*;
 import com.amd.aparapi.internal.util.*;
+import iaparapi.internal.opencl.OpenCLLoader;
+import iaparapi.internal.util.UnsafeWrapper;
 
 import java.lang.annotation.*;
 import java.lang.reflect.*;

@@ -1,6 +1,6 @@
-package com.amd.aparapi.opencl;
+package iaparapi.opencl;
 
-import com.amd.aparapi.ProfileInfo;
+import iaparapi.ProfileInfo;
 import java.util.ArrayList;
 import java.util.List;
 

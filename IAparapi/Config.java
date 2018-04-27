@@ -35,15 +35,15 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
  */
-package com.amd.aparapi;
+package iaparapi;
 
 import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.amd.aparapi.internal.instruction.Instruction;
-import com.amd.aparapi.internal.jni.ConfigJNI;
-import com.amd.aparapi.internal.tool.InstructionViewer;
+import iaparapi.internal.instruction.Instruction;
+import iaparapi.internal.jni.ConfigJNI;
+import iaparapi.internal.tool.InstructionViewer;
 
 /**
  * A central location for holding all runtime configurable properties as well as logging configuration.
@@ -80,7 +80,7 @@ public class Config extends ConfigJNI{
     *
     *  Usage -Dcom.amd.aparapi.executionMode={SEQ|JTP|CPU|GPU}
     *  
-    *  @see com.amd.aparapi.Kernel.EXECUTION_MODE
+    *  @see Kernel.EXECUTION_MODE
     */
    public static final String executionMode = System.getProperty(propPkgName + ".executionMode");
 

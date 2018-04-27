@@ -35,15 +35,15 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi.internal.exception;
+package iaparapi.internal.exception;
 
-import com.amd.aparapi.internal.instruction.Instruction;
+import iaparapi.internal.instruction.Instruction;
 
 /**
  * We throw <code>ClassParseException</code>s (derived from <code>AparapiException</code>) if we encounter any Aparapi unfriendly 
  * constructs.  This allows us to <strong>fail fast</strong>.
  * 
- * @see com.amd.aparapi.internal.exception.AparapiException
+ * @see AparapiException
  *
  * @author gfrost
  *

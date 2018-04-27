@@ -1,4 +1,4 @@
-package com.amd.aparapi.internal.annotation;
+package iaparapi.internal.annotation;
 
 /**
  * Used to tag unused features (methods/fields) 

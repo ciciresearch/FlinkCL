@@ -1,4 +1,4 @@
-package com.amd.aparapi.internal.opencl;
+package iaparapi.internal.opencl;
 
 public class OpenCLMem{
 

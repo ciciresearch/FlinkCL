@@ -1,4 +1,4 @@
 /**
  *
  */
-package com.amd.aparapi.device;
+package iaparapi.device;

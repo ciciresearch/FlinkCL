@@ -1,4 +1,4 @@
-package com.amd.aparapi.internal.annotation;
+package iaparapi.internal.annotation;
 
 /**
  * Use this annotation to tag stuff that needs Java Doc added

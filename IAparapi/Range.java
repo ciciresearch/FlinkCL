@@ -1,9 +1,9 @@
-package com.amd.aparapi;
+package iaparapi;
 
 import java.util.Arrays;
 
-import com.amd.aparapi.device.Device;
-import com.amd.aparapi.internal.jni.RangeJNI;
+import iaparapi.device.Device;
+import iaparapi.internal.jni.RangeJNI;
 
 /**
  * 

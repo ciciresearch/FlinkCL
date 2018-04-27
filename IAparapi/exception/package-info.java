@@ -1,4 +1,4 @@
 /**
  *
  */
-package com.amd.aparapi.exception;
+package iaparapi.exception;

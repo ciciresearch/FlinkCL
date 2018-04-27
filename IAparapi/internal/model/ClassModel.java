@@ -35,15 +35,20 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi.internal.model;
+package iaparapi.internal.model;
 
-import com.amd.aparapi.*;
 import com.amd.aparapi.internal.annotation.*;
 import com.amd.aparapi.internal.exception.*;
-import com.amd.aparapi.internal.instruction.InstructionSet.*;
-import com.amd.aparapi.internal.model.ClassModel.AttributePool.*;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool.*;
+import iaparapi.internal.annotation.DocMe;
+import iaparapi.internal.exception.ClassParseException;
+import iaparapi.internal.instruction.InstructionSet.*;
+import iaparapi.internal.model.ClassModel.AttributePool.*;
+import iaparapi.internal.model.ClassModel.ConstantPool.*;
 import com.amd.aparapi.internal.reader.*;
+import iaparapi.Config;
+import iaparapi.Kernel;
+import iaparapi.internal.exception.AparapiException;
+import iaparapi.internal.reader.ByteReader;
 
 import java.io.*;
 import java.lang.reflect.*;
@@ -204,7 +209,8 @@ public class ClassModel{
       return superClazz;
    }
 
-   @DocMe public void replaceSuperClazz(ClassModel c) {
+   @DocMe
+   public void replaceSuperClazz(ClassModel c) {
       if (superClazz != null) {
          assert c.isSuperClass(getClassWeAreModelling()) == true : "not my super";
          if (superClazz.getClassWeAreModelling().getName().equals(c.getClassWeAreModelling().getName())) {

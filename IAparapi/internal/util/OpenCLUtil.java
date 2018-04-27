@@ -1,8 +1,8 @@
-package com.amd.aparapi.internal.util;
+package iaparapi.internal.util;
 
 import java.util.List;
 
-import com.amd.aparapi.internal.opencl.OpenCLPlatform;
+import iaparapi.internal.opencl.OpenCLPlatform;
 
 /**
  * This utility class encapsulates the necessary actions required to query underlying OpenCL information

@@ -35,17 +35,22 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
  */
-package com.amd.aparapi.internal.model;
+package iaparapi.internal.model;
 
-import com.amd.aparapi.*;
 import com.amd.aparapi.internal.exception.*;
 import com.amd.aparapi.internal.instruction.*;
-import com.amd.aparapi.internal.instruction.InstructionPattern.*;
-import com.amd.aparapi.internal.instruction.InstructionSet.*;
-import com.amd.aparapi.internal.model.ClassModel.*;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool.*;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool.MethodReferenceEntry.*;
+import iaparapi.internal.instruction.*;
+import iaparapi.internal.instruction.InstructionPattern.*;
+import iaparapi.internal.exception.ClassParseException;
+import iaparapi.internal.instruction.InstructionSet.*;
+import iaparapi.Config;
+import iaparapi.Kernel;
+import iaparapi.internal.exception.AparapiException;
+import iaparapi.internal.model.ClassModel.*;
+import iaparapi.internal.model.ClassModel.ConstantPool.*;
+import iaparapi.internal.model.ClassModel.ConstantPool.MethodReferenceEntry.*;
 import com.amd.aparapi.internal.reader.*;
+import iaparapi.internal.reader.ByteReader;
 
 import java.util.*;
 import java.util.Map.Entry;

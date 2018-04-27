@@ -1,4 +1,4 @@
-package com.amd.aparapi.internal.tool;
+package iaparapi.internal.tool;
 
 import java.awt.BasicStroke;
 import java.awt.BorderLayout;
@@ -49,17 +49,17 @@ import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import com.amd.aparapi.Config;
-import com.amd.aparapi.internal.exception.AparapiException;
-import com.amd.aparapi.internal.exception.ClassParseException;
-import com.amd.aparapi.internal.instruction.Instruction;
-import com.amd.aparapi.internal.instruction.InstructionSet.CompositeInstruction;
-import com.amd.aparapi.internal.model.ClassModel;
-import com.amd.aparapi.internal.model.Entrypoint;
-import com.amd.aparapi.internal.model.MethodModel;
-import com.amd.aparapi.internal.tool.InstructionViewer.Form.Check;
-import com.amd.aparapi.internal.tool.InstructionViewer.Form.Template;
-import com.amd.aparapi.internal.tool.InstructionViewer.Form.Toggle;
+import iaparapi.Config;
+import iaparapi.internal.exception.AparapiException;
+import iaparapi.internal.exception.ClassParseException;
+import iaparapi.internal.instruction.Instruction;
+import iaparapi.internal.instruction.InstructionSet.CompositeInstruction;
+import iaparapi.internal.model.ClassModel;
+import iaparapi.internal.model.Entrypoint;
+import iaparapi.internal.model.MethodModel;
+import iaparapi.internal.tool.InstructionViewer.Form.Check;
+import iaparapi.internal.tool.InstructionViewer.Form.Template;
+import iaparapi.internal.tool.InstructionViewer.Form.Toggle;
 
 public class InstructionViewer implements Config.InstructionListener{
 

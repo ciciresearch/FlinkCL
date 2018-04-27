@@ -1,6 +1,6 @@
-package com.amd.aparapi.internal.jni;
+package iaparapi.internal.jni;
 
-import com.amd.aparapi.internal.annotation.UsedByJNICode;
+import iaparapi.internal.annotation.UsedByJNICode;
 
 /**
  * This class is intended to be used as a 'proxy' or 'facade' object for Java code to interact with JNI

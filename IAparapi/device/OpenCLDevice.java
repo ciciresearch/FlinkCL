@@ -1,6 +1,5 @@
-package com.amd.aparapi.device;
+package iaparapi.device;
 
-import com.amd.aparapi.ProfileInfo;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,21 +13,21 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.amd.aparapi.Range;
-import com.amd.aparapi.internal.opencl.OpenCLArgDescriptor;
-import com.amd.aparapi.internal.opencl.OpenCLKernel;
-import com.amd.aparapi.internal.opencl.OpenCLPlatform;
-import com.amd.aparapi.internal.opencl.OpenCLProgram;
-import com.amd.aparapi.opencl.OpenCL;
-import com.amd.aparapi.opencl.OpenCL.Arg;
-import com.amd.aparapi.opencl.OpenCL.Constant;
-import com.amd.aparapi.opencl.OpenCL.GlobalReadOnly;
-import com.amd.aparapi.opencl.OpenCL.GlobalReadWrite;
-import com.amd.aparapi.opencl.OpenCL.GlobalWriteOnly;
-import com.amd.aparapi.opencl.OpenCL.Kernel;
-import com.amd.aparapi.opencl.OpenCL.Local;
-import com.amd.aparapi.opencl.OpenCL.Resource;
-import com.amd.aparapi.opencl.OpenCL.Source;
+import iaparapi.Range;
+import iaparapi.internal.opencl.OpenCLArgDescriptor;
+import iaparapi.internal.opencl.OpenCLKernel;
+import iaparapi.internal.opencl.OpenCLPlatform;
+import iaparapi.internal.opencl.OpenCLProgram;
+import iaparapi.opencl.OpenCL;
+import iaparapi.opencl.OpenCL.Arg;
+import iaparapi.opencl.OpenCL.Constant;
+import iaparapi.opencl.OpenCL.GlobalReadOnly;
+import iaparapi.opencl.OpenCL.GlobalReadWrite;
+import iaparapi.opencl.OpenCL.GlobalWriteOnly;
+import iaparapi.opencl.OpenCL.Kernel;
+import iaparapi.opencl.OpenCL.Local;
+import iaparapi.opencl.OpenCL.Resource;
+import iaparapi.opencl.OpenCL.Source;
 
 public class OpenCLDevice extends Device{
 

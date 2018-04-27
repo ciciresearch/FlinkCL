@@ -1,10 +1,8 @@
-package com.amd.aparapi.internal.opencl;
+package iaparapi.internal.opencl;
 
-import com.amd.aparapi.ProfileInfo;
-import com.amd.aparapi.internal.kernel.KernelRunner;
 import java.util.List;
 
-import com.amd.aparapi.internal.jni.OpenCLJNI;
+import iaparapi.internal.jni.OpenCLJNI;
 
 public class OpenCLKernel extends OpenCLJNI{
 

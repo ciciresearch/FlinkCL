@@ -35,7 +35,7 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi.internal.instruction;
+package iaparapi.internal.instruction;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -43,20 +43,20 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.amd.aparapi.Config;
-import com.amd.aparapi.internal.exception.ClassParseException;
-import com.amd.aparapi.internal.instruction.InstructionSet.AssignToLocalVariable;
-import com.amd.aparapi.internal.instruction.InstructionSet.Branch;
-import com.amd.aparapi.internal.instruction.InstructionSet.ByteCode;
-import com.amd.aparapi.internal.instruction.InstructionSet.CompositeArbitraryScopeInstruction;
-import com.amd.aparapi.internal.instruction.InstructionSet.CompositeInstruction;
-import com.amd.aparapi.internal.instruction.InstructionSet.ConditionalBranch;
-import com.amd.aparapi.internal.instruction.InstructionSet.FakeGoto;
-import com.amd.aparapi.internal.instruction.InstructionSet.Return;
-import com.amd.aparapi.internal.instruction.InstructionSet.UnconditionalBranch;
-import com.amd.aparapi.internal.model.MethodModel;
-import com.amd.aparapi.internal.model.ClassModel.LocalVariableTableEntry;
-import com.amd.aparapi.internal.model.ClassModel.LocalVariableInfo;
+import iaparapi.Config;
+import iaparapi.internal.exception.ClassParseException;
+import iaparapi.internal.instruction.InstructionSet.AssignToLocalVariable;
+import iaparapi.internal.instruction.InstructionSet.Branch;
+import iaparapi.internal.instruction.InstructionSet.ByteCode;
+import iaparapi.internal.instruction.InstructionSet.CompositeArbitraryScopeInstruction;
+import iaparapi.internal.instruction.InstructionSet.CompositeInstruction;
+import iaparapi.internal.instruction.InstructionSet.ConditionalBranch;
+import iaparapi.internal.instruction.InstructionSet.FakeGoto;
+import iaparapi.internal.instruction.InstructionSet.Return;
+import iaparapi.internal.instruction.InstructionSet.UnconditionalBranch;
+import iaparapi.internal.model.MethodModel;
+import iaparapi.internal.model.ClassModel.LocalVariableTableEntry;
+import iaparapi.internal.model.ClassModel.LocalVariableInfo;
 
 /**
  * Essentially a glorified linked list of Instructions plus some additional state to allow us to transform sequences.
@@ -907,7 +907,7 @@ public class ExpressionList{
             // } else if (i instanceof AssignToLocalVariable) {
             //    sb.append(" S");
          } else {
-            sb.append("..");
+            sb.append("src");
          }
       }
 

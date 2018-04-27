@@ -1,10 +1,10 @@
-package com.amd.aparapi.internal.opencl;
+package iaparapi.internal.opencl;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.amd.aparapi.device.OpenCLDevice;
-import com.amd.aparapi.internal.jni.OpenCLJNI;
+import iaparapi.device.OpenCLDevice;
+import iaparapi.internal.jni.OpenCLJNI;
 
 public class OpenCLPlatform extends OpenCLJNI{
 

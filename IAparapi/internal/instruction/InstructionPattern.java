@@ -35,21 +35,21 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi.internal.instruction;
+package iaparapi.internal.instruction;
 
-import com.amd.aparapi.internal.instruction.InstructionSet.AccessArrayElement;
-import com.amd.aparapi.internal.instruction.InstructionSet.AccessInstanceField;
-import com.amd.aparapi.internal.instruction.InstructionSet.AccessLocalVariable;
-import com.amd.aparapi.internal.instruction.InstructionSet.AssignToArrayElement;
-import com.amd.aparapi.internal.instruction.InstructionSet.AssignToInstanceField;
-import com.amd.aparapi.internal.instruction.InstructionSet.AssignToLocalVariable;
-import com.amd.aparapi.internal.instruction.InstructionSet.CastOperator;
-import com.amd.aparapi.internal.instruction.InstructionSet.Constant;
-import com.amd.aparapi.internal.instruction.InstructionSet.I_IADD;
-import com.amd.aparapi.internal.instruction.InstructionSet.I_ICONST_1;
-import com.amd.aparapi.internal.instruction.InstructionSet.I_IINC;
-import com.amd.aparapi.internal.instruction.InstructionSet.I_ISUB;
-import com.amd.aparapi.internal.instruction.InstructionSet.MethodCall;
+import iaparapi.internal.instruction.InstructionSet.AccessArrayElement;
+import iaparapi.internal.instruction.InstructionSet.AccessInstanceField;
+import iaparapi.internal.instruction.InstructionSet.AccessLocalVariable;
+import iaparapi.internal.instruction.InstructionSet.AssignToArrayElement;
+import iaparapi.internal.instruction.InstructionSet.AssignToInstanceField;
+import iaparapi.internal.instruction.InstructionSet.AssignToLocalVariable;
+import iaparapi.internal.instruction.InstructionSet.CastOperator;
+import iaparapi.internal.instruction.InstructionSet.Constant;
+import iaparapi.internal.instruction.InstructionSet.I_IADD;
+import iaparapi.internal.instruction.InstructionSet.I_ICONST_1;
+import iaparapi.internal.instruction.InstructionSet.I_IINC;
+import iaparapi.internal.instruction.InstructionSet.I_ISUB;
+import iaparapi.internal.instruction.InstructionSet.MethodCall;
 
 public class InstructionPattern{
 

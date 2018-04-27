@@ -1,17 +1,17 @@
-package com.amd.aparapi.internal.kernel;
+package iaparapi.internal.kernel;
 
 import java.lang.reflect.Field;
 import java.nio.ByteBuffer;
 
-import com.amd.aparapi.Kernel;
-import com.amd.aparapi.internal.jni.KernelArgJNI;
-import com.amd.aparapi.internal.model.ClassModel;
+import iaparapi.Kernel;
+import iaparapi.internal.jni.KernelArgJNI;
+import iaparapi.internal.model.ClassModel;
 
 /**
  * Each field (or captured field in the case of an anonymous inner class) referenced by any bytecode reachable from the users Kernel.run(), will
  * need to be represented as a <code>KernelArg</code>.
  * 
- * @see com.amd.aparapi.Kernel#execute(int _globalSize)
+ * @see Kernel#execute(int _globalSize)
  * 
  * @author gfrost
  * 

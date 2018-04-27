@@ -1,6 +1,6 @@
-package com.amd.aparapi.opencl;
+package iaparapi.opencl;
 
-import com.amd.aparapi.ProfileInfo;
+import iaparapi.ProfileInfo;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

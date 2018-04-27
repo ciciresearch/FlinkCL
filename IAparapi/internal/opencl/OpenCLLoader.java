@@ -1,10 +1,10 @@
-package com.amd.aparapi.internal.opencl;
+package iaparapi.internal.opencl;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.amd.aparapi.Config;
-import com.amd.aparapi.internal.jni.OpenCLJNI;
+import iaparapi.Config;
+import iaparapi.internal.jni.OpenCLJNI;
 
 /**
  * This class is intended to be a singleton which determines if OpenCL is available upon startup of Aparapi

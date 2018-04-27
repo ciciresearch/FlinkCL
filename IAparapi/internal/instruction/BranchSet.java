@@ -35,15 +35,15 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi.internal.instruction;
+package iaparapi.internal.instruction;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import com.amd.aparapi.internal.instruction.InstructionSet.Branch;
-import com.amd.aparapi.internal.instruction.InstructionSet.ConditionalBranch;
+import iaparapi.internal.instruction.InstructionSet.Branch;
+import iaparapi.internal.instruction.InstructionSet.ConditionalBranch;
 
 /**
  * Deals with the issue of recognizing that a sequence of bytecode branch instructions actually represent a single if/while with a logical expression.

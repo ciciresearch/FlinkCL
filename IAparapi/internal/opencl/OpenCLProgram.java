@@ -1,12 +1,12 @@
-package com.amd.aparapi.internal.opencl;
+package iaparapi.internal.opencl;
 
-import com.amd.aparapi.ProfileInfo;
+import iaparapi.ProfileInfo;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.amd.aparapi.device.OpenCLDevice;
-import com.amd.aparapi.internal.jni.OpenCLJNI;
+import iaparapi.device.OpenCLDevice;
+import iaparapi.internal.jni.OpenCLJNI;
 
 public class OpenCLProgram extends OpenCLJNI{
 

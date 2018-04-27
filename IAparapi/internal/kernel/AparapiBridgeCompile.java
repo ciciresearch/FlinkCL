@@ -1,12 +1,9 @@
-package com.amd.aparapi.internal.kernel;
+package iaparapi.internal.kernel;
 
-import com.amd.aparapi.internal.instruction.Instruction;
-import com.amd.aparapi.internal.model.ClassModel;
-import com.amd.aparapi.internal.model.ClassModel.ConstantPool;
-import com.amd.aparapi.internal.model.Entrypoint;
-import com.amd.aparapi.internal.model.MethodModel;
-import com.amd.aparapi.internal.writer.KernelWriter;
-import com.amd.aparapi.Kernel;
+import iaparapi.internal.model.ClassModel;
+import iaparapi.internal.model.Entrypoint;
+import iaparapi.internal.writer.KernelWriter;
+import iaparapi.Kernel;
 
 /**
  * Created by cc on 2018/3/22.

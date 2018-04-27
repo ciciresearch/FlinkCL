@@ -35,16 +35,16 @@ of EAR).  For the most current Country Group listings, or for additional informa
 under those regulations, please refer to the U.S. Bureau of Industry and Security's website at http://www.bis.doc.gov/. 
 
 */
-package com.amd.aparapi.internal.instruction;
+package iaparapi.internal.instruction;
 
 import java.util.LinkedList;
 
-import com.amd.aparapi.internal.instruction.InstructionSet.Branch;
-import com.amd.aparapi.internal.instruction.InstructionSet.ByteCode;
-import com.amd.aparapi.internal.instruction.InstructionSet.CompositeInstruction;
-import com.amd.aparapi.internal.instruction.InstructionSet.ConditionalBranch;
-import com.amd.aparapi.internal.model.MethodModel;
-import com.amd.aparapi.internal.reader.ByteReader;
+import iaparapi.internal.instruction.InstructionSet.Branch;
+import iaparapi.internal.instruction.InstructionSet.ByteCode;
+import iaparapi.internal.instruction.InstructionSet.CompositeInstruction;
+import iaparapi.internal.instruction.InstructionSet.ConditionalBranch;
+import iaparapi.internal.model.MethodModel;
+import iaparapi.internal.reader.ByteReader;
 
 /**
  * Initially represents a single Java bytecode instruction.

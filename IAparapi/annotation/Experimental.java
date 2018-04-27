@@ -1,4 +1,4 @@
-package com.amd.aparapi.annotation;
+package iaparapi.annotation;
 
 /**
  * Used to tag experimental features (methods/fields)

@@ -1,7 +1,7 @@
-package com.amd.aparapi.encache;
+package iaparapi.encache;
 
 import java.util.*;
-import com.amd.aparapi.Kernel;
+import iaparapi.Kernel;
 
 /**
  * Created by cc on 2018/3/26.

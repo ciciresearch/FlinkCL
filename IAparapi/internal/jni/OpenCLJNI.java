@@ -1,14 +1,14 @@
-package com.amd.aparapi.internal.jni;
+package iaparapi.internal.jni;
 
-import com.amd.aparapi.ProfileInfo;
+import iaparapi.ProfileInfo;
 import java.util.List;
 
-import com.amd.aparapi.device.OpenCLDevice;
-import com.amd.aparapi.internal.opencl.OpenCLArgDescriptor;
-import com.amd.aparapi.internal.opencl.OpenCLKernel;
-import com.amd.aparapi.internal.opencl.OpenCLMem;
-import com.amd.aparapi.internal.opencl.OpenCLPlatform;
-import com.amd.aparapi.internal.opencl.OpenCLProgram;
+import iaparapi.device.OpenCLDevice;
+import iaparapi.internal.opencl.OpenCLArgDescriptor;
+import iaparapi.internal.opencl.OpenCLKernel;
+import iaparapi.internal.opencl.OpenCLMem;
+import iaparapi.internal.opencl.OpenCLPlatform;
+import iaparapi.internal.opencl.OpenCLProgram;
 
 /**
  * This class is intended to be used as a 'proxy' or 'facade' object for Java code to interact with JNI
