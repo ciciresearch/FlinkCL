@@ -1,4 +1,0 @@
-/**
- *
- */
-package iaparapi.internal.tool;
